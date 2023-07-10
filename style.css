@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+/* nav sector */
+
 .nav-container{
     display: flex;
     background-color:darkgray;
@@ -20,3 +22,44 @@
     text-decoration: none;
     color: black;
 }
+
+/* nav sector end*/
+
+/* banner sector start*/
+
+.banner-container{
+    height: 100vh;
+    background-image: url('./asset/image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.span-primary{
+    color: red;
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.banner-description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.banner-btn{
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+}
+.red{
+    color: white;
+    background-color: red;
+}
+
+
+/* banner sector end */
